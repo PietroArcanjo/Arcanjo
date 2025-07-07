@@ -1,59 +1,70 @@
+Meu Curriculo 
+Arcanjo
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ChatGPT – Inspiração e Produtividade</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Meu Currículo – [Seu Nome]</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
-    header { background-color: #fff; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-    nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: 500; }
-    .hero { text-align: center; padding: 100px 20px; background: #f9fafb; }
-    .hero h1 { font-size: 2.5em; margin-bottom: 20px; }
-    .hero p { font-size: 1.1em; margin-bottom: 30px; color: #555; }
-    .btn-primary { padding: 12px 24px; background-color: #10a37f; color: #fff; border: none; border-radius: 4px; font-size: 1em; cursor: pointer; }
-    .features { display: flex; justify-content: center; gap: 40px; padding: 60px 20px; }
-    .feature { width: 250px; text-align: center; }
-    .feature img { width: 80px; height: 80px; }
-    footer { background-color: #fff; text-align: center; padding: 20px; font-size: 0.9em; color: #888; border-top: 1px solid #eee; }
+    body { font-family: sans-serif; }
+    .hero { padding: 100px 0; text-align: center; background: #f8f9fa; }
+    .section-title { font-weight: 600; margin-bottom: 40px; }
   </style>
 </head>
 <body>
-  <header>
-    <div class="logo"><strong>ChatGPT</strong></div>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#recursos">Recursos</a>
-      <a href="#contato">Contato</a>
-    </nav>
+
+  <header class="bg-white shadow-sm py-3 fixed-top">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h4 m-0">[Seu Nome]</h1>
+      <nav>
+        <a href="#sobre" class="mx-2">Sobre</a>
+        <a href="#experiencia" class="mx-2">Experiência</a>
+        <a href="#educacao" class="mx-2">Educação</a>
+        <a href="#contato" class="mx-2">Contato</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <h1>ChatGPT</h1>
-    <p>Obtenha respostas, encontre inspiração e seja mais produtivo.</p>
-    <button class="btn-primary">Começar agora</button>
-  </section>
+  <main class="mt-5 pt-5">
+    <section id="sobre" class="hero">
+      <img src="sua-foto.jpg" alt="Você" class="rounded-circle mb-3" width="150">
+      <h2>Olá, sou [Seu Nome]</h2>
+      <p>Desenvolvedor(a) Front‑end com foco em criação de experiências web modernas.</p>
+    </section>
 
-  <section class="features" id="recursos">
-    <div class="feature">
-      <img src="https://via.placeholder.com/80" alt="Recursos" />
-      <h2>Ajuda nos estudos</h2>
-      <p>Revisão, vocabulário e testes para vestibular.</p>
-    </div>
-    <div class="feature">
-      <img src="https://via.placeholder.com/80" alt="Inspiração" />
-      <h2>Criatividade</h2>
-      <p>Ideias para arte infantil, textos e presentes.</p>
-    </div>
-    <div class="feature">
-      <img src="https://via.placeholder.com/80" alt="Produtividade" />
-      <h2>Produtividade</h2>
-      <p>Roteiros de viagem, e-mails e scripts em Python.</p>
-    </div>
-  </section>
+    <section id="experiencia" class="container py-5">
+      <h2 class="section-title">Experiência</h2>
+      <div class="timeline">
+        <!-- Exemplo de timeline ou lista -->
+        <div class="mb-4">
+          <h5>Empresa X – Cargo</h5>
+          <small class="text-muted">Jan 2023 – Atual</small>
+          <p>Responsabilidades e resultados...</p>
+        </div>
+      </div>
+    </section>
 
-  <footer>
-    © 2025 ChatGPT. All rights reserved.
+    <section id="educacao" class="container py-5 bg-light">
+      <h2 class="section-title">Educação</h2>
+      <p><strong>Universidade Y</strong> – Bacharelado em Ciência da Computação (2020‑2024)</p>
+    </section>
+
+    <section id="contato" class="container py-5">
+      <h2 class="section-title">Contato</h2>
+      <form>
+        <div class="mb-3"><input type="text" class="form-control" placeholder="Nome"></div>
+        <div class="mb-3"><input type="email" class="form-control" placeholder="E‑mail"></div>
+        <div class="mb-3"><textarea class="form-control" rows="4" placeholder="Mensagem"></textarea></div>
+        <button class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="text-center py-3 bg-white border-top">
+    © 2025 [Seu Nome]
   </footer>
+
 </body>
 </html>
