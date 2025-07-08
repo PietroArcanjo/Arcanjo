@@ -1,7 +1,7 @@
 # 👤 Pietro Arcanjo De Moura
 Cargo desejado · Área de atuação
 - • GitHub • Pietromoural@gmail.com • [Sobral, CE – Brazil]
-- CPF: 07831499300
+- CPF: **********
 - Instagram @Pietro.lie
 # 🎯 Objetivo
 - Ganhar Experiencia[Principalmente na area de Programação]
