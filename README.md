@@ -1,4 +1,4 @@
-Curriculo 
+## Curriculo 
 - Pietro Arcanjo         Gmail: Pietromoural@gmail.com 
                        Instagram: Pietro.lie
                        CPF: 07831499300
